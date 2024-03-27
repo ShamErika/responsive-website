@@ -1,0 +1,66 @@
+html, body{
+  /*Nothing here*/
+}
+
+h1, label, h4{
+  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Lato', sans-serif;*/
+
+}
+h4{
+  font-size: 0.8em;
+}
+body{
+  font-size: 16px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.titleBox{
+  width: 90%;
+  min-width: 250px;
+  max-width: 450px;
+  margin: 1em auto;
+  background-color: mediumpurple;
+  text-align: center;
+  border-radius: 4px;
+  color:white;
+  padding: 0.5px;
+  opacity: 0.9;
+
+}
+.survey{
+  width: 50%;
+  min-width: 250px;
+  max-width: 450px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+#chd{
+  padding-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  display: flex;
+  justify-content: flex-start;
+}
+#ihd{
+  display: flex;
+  margin-left: 1em;
+  justify-content: flex-start;
+
+}
+#radioElement{
+  display: block;
+  margin-bottom: 5px;
+}
+.radioBox{
+  margin-left: 1em;
+}
+.buttonDiv{
+  display:flex;
+  justify-content: flex-end;
+}
+#submitButton{
+  margin: 3em;
+}

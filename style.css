@@ -1,0 +1,38 @@
+button{
+  color: white;
+  font-weight: bold;
+  background-color: rgb(123, 210, 150);
+  border-radius: 2px;
+  border-color: rgb(123, 210, 150);
+  border-style:solid;
+  font-size: 12px;
+  padding: 5px 7px 5px 7px;
+}
+button:hover{
+  color: rgb(123, 210, 150);
+  background-color: white;
+}
+button:focus{
+  outline: none;
+}
+[type='text']{
+  border: none;
+  border-bottom: 1px solid green;
+}
+[type='text']:focus{
+  outline: none;
+}
+[type='number']{
+  border: none;
+  border-bottom: 1px solid green;
+}
+[type='number']:focus{
+  outline:none;
+}
+[type='email']{
+  border: none;
+  border-bottom: 1px solid green;
+}
+[type='email']:focus{
+  outline: none;
+}

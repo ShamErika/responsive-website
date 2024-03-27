@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="surveyform.css" rel="stylesheet" type="text/css"/>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <title> Responsive Website </title>
+</head>
+<body>
+  <div class="titleBox">
+    <h1>Food Survey</h1>
+    <h4>Tell us what you prefer when it comes to food!</h4>
+  </div>
+  <div class="survey">
+    <form id="surveyform" id="formOne">
+    <div id="chd">
+      <label>Name: </label>
+    </div>
+    <div id="ihd">
+      <input type="text" placeholder="Sham">
+    </div>
+    <div id="chd">
+      <label for="hoursWrk">Age:</label>
+    </div>
+    <div id="ihd">
+      <input type="number" placeholder="20" />
+    </div>
+    <div id="chd">
+      <label for="emailPlc">Email Address: </label>
+    </div>
+    <div id="ihd">
+      <input type="email" placeholder="youremail@email.com" />
+    </div>
+    <div id="chd">
+        <label for="langUsed">Which taste do you prefer?</label>
+    </div>
+    <div id="ihd">
+      <select name="langUsed">
+        <option value="Java">Sour</option>
+        <option value="C">Sweet</option>
+        <option value="Python">Salty</option>
+        <option value="Ruby">Savory</option>
+      </select>
+    </div>
+    <div id="chd">
+      <label>What occasion does food taste best? </label>
+    </div>
+    <div class="radioBox">
+      <label>Birthday Party<input type="radio" id="radioElement" name="pp"></label>
+      <label>Wedding<input type="radio" id="radioElement" name="pp"></label>
+      <label>Funeral<input type="radio" id="radioElement" name="pp"></label>
+      <label>Others<input type="radio" id="radioElement" name="pp"></label>
+    </div>
+    <div id="chd">
+      <label>What food type taste better? </label>
+    </div>
+    <div class="radioBox">
+      <label>Dessert<input type="checkbox" id="radioElement" name="pp"></label>
+      <label>Appetizers<input type="checkbox" id="radioElement" name="pp"></label>
+      <label>Main Course<input type="checkbox" id="radioElement" name="pp"></label>
+      <label>Others<input type="checkbox" id="radioElement" name="pp"></label>
+    </div>
+
+    <label for="freeform">Tell us your experience when eating your favorite food:</label>
+<br>
+
+<textarea id="freeform" name="freeform" rows="4" cols="50">
+Enter text here...
+</textarea>
+
+
+
+    <div class="buttonDiv"><button id="submitButton" form="formOne">Submit</button></div>
+
+
+  </form>
+
+  </div>
+</body>
+</html>
